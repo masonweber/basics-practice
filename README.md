@@ -8,4 +8,4 @@ Using Netbeans:
 
 If you would like to contribute to the project, fork this repo and make a pull request to merge changes in.  The creator can be reached at mason.weber.cpe@gmail.com.  There is no project management tool at this point in time.
 
-Thanks and godd luck!
+Thanks and good luck!

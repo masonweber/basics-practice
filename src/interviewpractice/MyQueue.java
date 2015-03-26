@@ -8,8 +8,8 @@ package interviewpractice;
 
 /**
  *
- * @author Mason
+ * @author Mason Weber
  */
-public class MySearch {
-    
+public class MyQueue {
+
 }

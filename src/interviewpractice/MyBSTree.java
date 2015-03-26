@@ -8,8 +8,8 @@ package interviewpractice;
 
 /**
  *
- * @author Mason
+ * @author Mason Weber
  */
-public class MyRecursion {
+public class MyBSTree {
     
 }

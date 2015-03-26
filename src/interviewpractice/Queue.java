@@ -7,9 +7,9 @@
 package interviewpractice;
 
 /**
- *
- * @author Mason
+ * 
+ * @author Mason Weber
  */
-public class MyArray {
+public interface Queue {
     
 }

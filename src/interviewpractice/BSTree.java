@@ -7,9 +7,9 @@
 package interviewpractice;
 
 /**
- *
- * @author Mason
+ * Binary Search Tree
+ * @author Mason Weber
  */
-public class MyTree {
+public class BSTree {
     
 }

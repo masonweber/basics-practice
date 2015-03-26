@@ -10,6 +10,8 @@ package interviewpractice;
  * Binary Search Tree
  * @author Mason Weber
  */
-public class BSTree {
-    
+public interface BSTree {
+    public boolean contains(Object o); // search tree for an object
+    public void insert(Object o); // insert object or do nothing if it exists
+    public void delete(Object o); // delete object if it exists or do nothing
 }

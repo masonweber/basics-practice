@@ -10,6 +10,6 @@ package interviewpractice;
  *
  * @author Mason Weber
  */
-public class MyBSTree {
+public class MyBSTree implements BSTree{
     
 }

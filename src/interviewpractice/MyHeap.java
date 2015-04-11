@@ -10,6 +10,27 @@ package interviewpractice;
  *
  * @author Mason
  */
-public class MyHeap {
+public class MyHeap implements Heap{
+    //class variables
+
+    //constructor
+    public MyHeap() {
+        
+    }
     
+    //implement interface methods
+    @Override
+    public void add(Object o) {
+        
+    }
+    
+    @Override
+    public void delete(Object o) {
+        
+    }
+    
+    @Override
+    public boolean contains(Object o) {
+        return false;
+    }
 }

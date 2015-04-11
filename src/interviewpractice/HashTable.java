@@ -10,6 +10,8 @@ package interviewpractice;
  *
  * @author Mason Weber
  */
-public interface HashList {
-    
+public interface HashTable {
+    public void add(Object o);
+    public void delete(Object o);
+    public boolean contains(Object o);
 }

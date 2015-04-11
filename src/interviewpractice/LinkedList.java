@@ -11,5 +11,9 @@ package interviewpractice;
  * @author Mason Weber
  */
 public interface LinkedList {
-    
+    public void insertAfter(Object o, Object p);
+    public void insertBeginning(Object o);
+    public void insertEnd(Object o);
+    public boolean contains(Object o);
+    public void remove(Object o);
 }

@@ -20,13 +20,13 @@ public class MyHeap implements Heap{
     
     //implement interface methods
     @Override
-    public void add(Object o) {
+    public void push(Object o) {
         
     }
     
     @Override
-    public void delete(Object o) {
-        
+    public Object pop(Object o) {
+        return o;
     }
     
     @Override

@@ -11,5 +11,11 @@ package interviewpractice;
  * @author Mason Weber
  */
 public interface Map {
-    
+    public void clear();
+    public void put(Object o, Object p);
+    public Object get(Object o);
+    public void remove(Object o);
+    public boolean contains(Object o);
+    public boolean isEmpty();
+    public int size();
 }

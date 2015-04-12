@@ -11,7 +11,7 @@ package interviewpractice;
  * @author Mason Weber
  */
 public interface Heap {
-    public void add(Object o);
-    public void delete(Object o);
+    public void push(Object o);
+    public Object pop(Object o);
     public boolean contains(Object o);
 }

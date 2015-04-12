@@ -11,5 +11,7 @@ package interviewpractice;
  * @author Mason Weber
  */
 public interface Queue {
-    
+    public void enque(Object o);
+    public Object deque(Object o);
+    public boolean contains(Object o);
 }

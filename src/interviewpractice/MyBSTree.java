@@ -12,11 +12,15 @@ package interviewpractice;
  */
 public class MyBSTree implements BSTree{
     //class variables
-    
+    Node head;
 
     //constructor
-    public MyBSTree () {
-        
+    public MyBSTree() {
+        head = null;
+    }
+    
+    public MyBSTree (Object o) {
+        head = new Node(o);
     }
     
     //implelemt methods
@@ -33,5 +37,43 @@ public class MyBSTree implements BSTree{
     @Override
     public void delete(Object o) { // delete object if it exists or do nothing
         
+    }
+    
+    private class Node implements Comparable{
+        //class variables
+        Node left, right;
+        Object data;
+        
+        public Node(Object data) {
+            this.data = data;
+        }
+        
+        @Override
+        public int compareTo(Object o) {
+            //this.o > o, return 1
+            //this.o == 0, return 0
+            //this.o < 0, return -1
+            return 0;
+        }
+        
+        public Node getLeft() {
+            return left;
+        }
+        
+        public void setLeft(Node n) {
+            left = n;
+        }
+        
+        public Node getRight() {
+            return right;
+        }
+        
+        public void setRight(Node n) {
+            right = n;
+        }
+        
+        public Object getData() {
+            return data;
+        }
     }
 }

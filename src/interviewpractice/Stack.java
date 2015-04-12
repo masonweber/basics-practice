@@ -11,5 +11,7 @@ package interviewpractice;
  * @author Mason Weber
  */
 public interface Stack {
-    
+    public void push(Object o);
+    public Object pop(Object o);
+    public boolean contains(Object o);
 }
